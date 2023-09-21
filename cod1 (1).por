@@ -6,13 +6,14 @@ programa {
     inteiro soma=0
 
     para(inteiro i = 0; i < 5; i++){
-      escreva("Digite o ", i+1," º numero: ")
+      escreva("Digite o ", i+1," ï¿½ numero: ")
       leia(numeros[i])
+      
       soma+=numeros[i]
     }
     //para(inteiro j = 0; j < u.numero_linhas(numeros); i++){}
 
-    escreva("O resultado é: ",soma)
+    escreva("O resultado ï¿½: ",soma)
   }
 
 
